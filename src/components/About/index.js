@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
     return (
-        <section>
-            <h1 id='about'>About</h1>
-        </section>
+        <section className="my-5">
+        <h1 id="about">Who am I?</h1>
+      </section>
     );
 }
 
