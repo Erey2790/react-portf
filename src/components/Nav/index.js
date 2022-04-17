@@ -4,7 +4,7 @@ import React from "react";
 function Nav() {
   const  categories = [
     { name: 'Home', description: 'Brings you back to homepage' },
-    { name: 'projects', description: 'List of projects' },
+    { name: 'Projects', description: 'List of projects' },
     
   ];
 
