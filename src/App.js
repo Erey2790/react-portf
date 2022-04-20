@@ -5,7 +5,11 @@ import Projects from './components/Projects';
 // import profilePic from './assets/pics/image0y.jpeg';
 import ContactForm from './components/Contact';
 
+
 function App() {
+
+  const [contactSelected, setContactSelected] = useState(false)
+
   const  [categories] = useState ([
     { name: 'Projects', description: 'A list of my projects I have worked on so far' },
     { name: 'Contact', description: 'Contact me' },
@@ -20,11 +24,19 @@ function App() {
       categories={categories}
       setCurrentCategory={setCurrentCategory}
       currentCategory={currentCategory}
+      contactSelected={contactSelected}
+      setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        <ContactForm></ContactForm>
-        <Projects></Projects>
-          <About />        
+        {!contactSelected ? (
+          <>
+          <Projects></Projects>
+          <About /> 
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
+               
       </main>
     </div>
   );
