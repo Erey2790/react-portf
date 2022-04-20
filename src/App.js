@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 // import profilePic from './assets/pics/image0y.jpeg';
+import ContactForm from './components/Contact';
 
 function App() {
   const  [categories] = useState ([
@@ -21,6 +22,7 @@ function App() {
       currentCategory={currentCategory}
       ></Nav>
       <main>
+        <ContactForm></ContactForm>
         <Projects></Projects>
           <About />        
       </main>
