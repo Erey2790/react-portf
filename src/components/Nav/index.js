@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
-  const  [categories] = useState ([
-    { name: 'Projects', description: 'A list of my projects I have worked on so far' },
-    { name: 'Contact', description: 'Contact me' },
-    { name: 'Resume', description: 'Download resume here' }
+function Nav(props) {
 
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
+const {
+  categories = [],
+  setCurrentCategory,
+  currentCategory,
+} = props;
 
 
   return (
