@@ -16,7 +16,7 @@ My first attempt at creating a React Portfolio. My attempt to make a single page
 
 
 ## Deployment
-
+http://erey2790.github.io/react-portf
 To deploy this project run
 
 ```bash
