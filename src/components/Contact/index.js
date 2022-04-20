@@ -39,6 +39,7 @@ function ContactForm() {
       
       console.log(formState);
     return (
+        
     <section>
         <h1>Contact me</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
@@ -57,6 +58,8 @@ function ContactForm() {
           <button type='submit'>submit</button>
         </form>
     </section>
+
+    
     )
 }
 

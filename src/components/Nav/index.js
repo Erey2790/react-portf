@@ -16,7 +16,7 @@ const {
     <header className="flex-row px-1">
       <h2>
       <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-          <span role="img" aria-label="camera"> {" "}📸</span>{" "} Elmer Reyes
+          <span role="img" aria-label="camera"> {" "}</span>{" "} Elmer Reyes
         </a>
       </h2>
       <nav>

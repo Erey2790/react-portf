@@ -12,7 +12,7 @@ function App() {
 
   const  [categories] = useState ([
     { name: 'Projects', description: 'A list of my projects I have worked on so far' },
-    { name: 'Contact', description: 'Contact me' },
+    
     { name: 'Resume', description: 'Download resume here' }
 
   ]);

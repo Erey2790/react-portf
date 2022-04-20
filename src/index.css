@@ -34,9 +34,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--tertiary);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -292,4 +292,30 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.eats {
+  height: 100px;
+      width: 100px; 
+}
+
+.overcast {
+  height: 100px;
+      width: 100px; 
+}
+.spar {
+  height: 100px;
+      width: 100px; 
+}
+.sticheese {
+  height: 100px;
+      width: 100px; 
+}
+.tea {
+  height: 100px;
+      width: 100px; 
+}
+.dispatch {
+  height: 100px;
+      width: 100px; 
 }
