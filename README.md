@@ -1,3 +1,36 @@
+
+# React Portfolio
+
+My first attempt at creating a React Portfolio. My attempt to make a single page application Portfolio for a web devloper. Included is project that with time I can devleop it into something I can share with the world. 
+
+
+## Authors
+
+- [@erey2790](https://www.github.com/erey2790)
+
+
+## Badges
+
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
+
+
+## Screenshots
+
+
+
+![first react portforlio](https://user-images.githubusercontent.com/90116580/164332732-cca9f427-e41c-4074-9b48-63a6eb0d3814.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
