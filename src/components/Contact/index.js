@@ -57,7 +57,12 @@ function ContactForm() {
           </div>
           <button type='submit'>submit</button>
         </form>
+        <div>Phone number (214) 497-8357</div>
+        <div>Email: Erey2790@gmail.com</div>
+        
     </section>
+
+   
 
     
     )
