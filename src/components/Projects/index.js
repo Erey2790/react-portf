@@ -1,19 +1,19 @@
 import React from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
+import AppList from '../AppList';
 
 
-function Projects(props) {
-    const currentCategory = {
-        name: 'commercial',
-        description: 'descripcion'
-    }
 
-    return (
-        <section>
-            <h1>{currentCategory.name}</h1>
-            <p>{currentCategory.name}</p>
-      
-        </section>
-    );
+function Projects({ currentCategory }) {
+   
+
+   return (
+    <section>
+      <h1 data-testid="h1tag">App list</h1>
+      {/* <p>{description}</p> */}
+      <AppList  />
+    </section>
+  );
 }
 
 export default Projects;
