@@ -26,8 +26,9 @@ To deploy this project run
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+
+![first react portforlio](https://user-images.githubusercontent.com/90116580/164332732-cca9f427-e41c-4074-9b48-63a6eb0d3814.PNG)
 
 
 # Getting Started with Create React App
