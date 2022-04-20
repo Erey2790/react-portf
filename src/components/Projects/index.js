@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../../assets/pics/smallerImageBlue.jpeg'
+
 
 function Projects(props) {
     const currentCategory = {
@@ -11,13 +11,7 @@ function Projects(props) {
         <section>
             <h1>{currentCategory.name}</h1>
             <p>{currentCategory.name}</p>
-            <div>
-                <img
-                    src={photo}
-                    alt="My dog Blue"
-                    className='img-thumbnail mx-1'
-                    />
-            </div>
+      
         </section>
     );
 }
