@@ -5,7 +5,7 @@ function About() {
 
   return (
     <section className="my-5" >
-      <h1 id="about">Who am I?</h1>
+      <h1 id="about">A little about me ...</h1>
       <div className="my-2">
         <p>
           Hello I'm a Full Stack Web Developer.
