@@ -319,3 +319,47 @@ a {
   height: 100px;
       width: 100px; 
 }
+
+.appPic {
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 10px;
+  
+}
+
+.eats {
+  width: 18%; 
+     float: left; 
+     padding-left: 1%; 
+     padding-right: 1%;
+}
+
+.dispatch {
+  width: 18%; 
+     float: left; 
+     padding-left: 1%; 
+     padding-right: 1%;
+}
+
+.overcast {
+  width: 18%; 
+     float: left; 
+     padding-left: 1%; 
+     padding-right: 1%;
+}
+
+.spar {
+  width: 18%; 
+     float: left; 
+     padding-left: 1%; 
+     padding-right: 1%;
+}
+
+.sticheese {
+  width: 18%; 
+     float: left; 
+     padding-left: 1%; 
+     padding-right: 1%;
+}
+

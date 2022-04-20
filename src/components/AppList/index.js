@@ -9,7 +9,7 @@ import photoTea from '../../assets/pics/PortfolioTea.png';
 function AppList() {
     
     return (
-        <div>
+        <div className='appPic'>
             <img className='dispatch'
             src={photoDispatch}
             alt="dispatch example"
@@ -35,10 +35,7 @@ function AppList() {
             alt='sticheese example'
             />
 
-            <img className='tea'
-            src={photoTea}
-            alt='tea example'
-            />
+          
 
 
 
